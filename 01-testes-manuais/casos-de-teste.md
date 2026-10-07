@@ -12,7 +12,7 @@ Verificar se o usuário consegue acessar o sistema utilizando credenciais válid
 
 **Pré-condições:**
 - Usuário cadastrado no sistema.
-- Possuir Crendencias válidas.
+- Crendencias válidas.
 
 **Passos:**
 1. Acessar a página de login.
