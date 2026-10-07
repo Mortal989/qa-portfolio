@@ -52,7 +52,7 @@ O sistema deve impedir o acesso e apresentar uma mensagem informando que as cred
 O sistema impediu o acesso e apresentou a mensagem: "Epic sadface: Username and password do not match any user in this service."
 
 **Status:**
-APROVADO ✅
+APROVADO ✅ 
 
 ---
 
