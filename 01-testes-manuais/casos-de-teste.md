@@ -59,19 +59,23 @@ APROVADO ✅
 ### CT-003 — Login com campos vazios
 
 **Objetivo:**
-
+Verificar se o sistema impede o login quando os campos obrigatórios não são preenchidos.
 
 **Pré-condições:**
-
+- Estar na página de login.
 
 **Passos:**
-
+1. Acessar a página de login.
+2. Não preencher o campo "Username".
+3. Não preencher o campo "Password".
+4. Clicar no botão "Login".
 
 **Resultado esperado:**
-
+O sistema deve impedir o login e informar que o campo "Username" é obrigatório.
 
 **Resultado obtido:**
-
+O sistema impediu o login e apresentou a mensagem: "Epic sadface: Username is required."
 
 **Status:**
+APROVADO ✅
 
