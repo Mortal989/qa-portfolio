@@ -33,22 +33,26 @@ APROVADO ✅
 ### CT-002 — Login com senha inválida
 
 **Objetivo:**
-
+Verificar se o sistema impede o acesso quando uma senha inválida é informada.
 
 **Pré-condições:**
-
+- Usuário cadastrado no sistema.
+- Possuir um usuário válido.
 
 **Passos:**
-
+1. Acessar a página de login.
+2. Informar o usuário `standard_user`.
+3. Informar uma senha inválida.
+4. Clicar no botão "Login".
 
 **Resultado esperado:**
-
+O sistema deve impedir o acesso e apresentar uma mensagem informando que as credenciais não são válidas.
 
 **Resultado obtido:**
-
+O sistema impediu o acesso e apresentou a mensagem: "Epic sadface: Username and password do not match any user in this service."
 
 **Status:**
-
+APROVADO ✅
 
 ---
 
