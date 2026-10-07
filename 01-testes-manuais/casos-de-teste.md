@@ -28,6 +28,10 @@ O usuário foi autenticado com sucesso e direcionado para a página de produtos.
 
 **Status:**
 APROVADO ✅
+
+**Evidência:**
+
+![CT-001 - Login com sucesso](LoginOK.jpg)
 ---
 
 ### CT-002 — Login com senha inválida
