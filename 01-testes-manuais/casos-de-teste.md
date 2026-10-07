@@ -87,3 +87,7 @@ O sistema impediu o login e apresentou a mensagem: "Epic sadface: Username is re
 **Status:**
 APROVADO ✅
 
+**Evidência:**
+
+![CT-003 - Campos vazios](LOginSemUser.jpg)
+
