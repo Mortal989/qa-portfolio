@@ -1,0 +1,1 @@
+Evidências dos testes manuais.
