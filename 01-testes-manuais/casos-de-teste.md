@@ -1,4 +1,4 @@
-# Casos de Teste
+t# Casos de Teste
 
 ## Projeto
 Sistema Web de Compras
@@ -31,7 +31,7 @@ APROVADO ✅
 
 **Evidência:**
 
-![CT-001 - Login com sucesso](LoginOK.jpg)
+![CT-001 - Login com sucesso](evidencias/LoginOK.jpg)
 ---
 
 ### CT-002 — Login com senha inválida
@@ -60,7 +60,7 @@ APROVADO ✅
 
 **Evidência:**
 
-![CT-002 - Senha inválida](LoginFail.jpg)
+![CT-002 - Senha inválida](evidencias/LoginFail.jpg)
 
 ---
 
@@ -89,5 +89,5 @@ APROVADO ✅
 
 **Evidência:**
 
-![CT-003 - Campos vazios](LOginSemUser.jpg)
+![CT-003 - Campos vazios](evidencias/LOginSemUser.jpg)
 
