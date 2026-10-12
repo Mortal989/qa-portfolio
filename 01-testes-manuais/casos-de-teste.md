@@ -32,6 +32,8 @@ APROVADO ✅
 **Evidência:**
 
 ![CT-001 - Login com sucesso](evidencias/LoginOK.jpg)
+
+**Resultado da execução:** Pendente
 ---
 
 ### CT-002 — Login com senha inválida
@@ -62,6 +64,7 @@ APROVADO ✅
 
 ![CT-002 - Senha inválida](evidencias/LoginFail.jpg)
 
+**Resultado da execução:** Pendente
 ---
 
 ### CT-003 — Login com campos vazios
@@ -91,3 +94,4 @@ APROVADO ✅
 
 ![CT-003 - Campos vazios](evidencias/LOginSemUser.jpg)
 
+**Resultado da execução:** Pendente
