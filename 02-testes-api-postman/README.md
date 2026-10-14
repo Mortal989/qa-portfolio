@@ -3,8 +3,8 @@
 ## Objetivo
 Desenvolver testes de API utilizando Postman e JavaScript para validar o status HTTP e os dados retornados pela API.
 
-## Ferramentas utilizadas
--Postman
+## Ferramentas 
+- PostMan
 - JavaScript
 - JSONPlaceholder — API fictícia para treinamento.
 
