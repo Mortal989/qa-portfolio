@@ -4,7 +4,7 @@
 Desenvolver testes de API utilizando Postman e JavaScript para validar o status HTTP e os dados retornados pela API.
 
 ## Ferramentas utilizadas
-- Postman
+-Postman
 - JavaScript
 - JSONPlaceholder — API fictícia para treinamento.
 
