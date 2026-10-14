@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "8318a3f0-047b-4878-86c7-43b49552f08e",
+    "name": "QA - Testes Negativos de API..",
+    "description": "# Testes de API com Postman\n\nColeção de testes de API desenvolvida para praticar validações automatizadas utilizando Postman e JavaScript.\n\n**Ferramenta:** Postman  \n**API utilizada:** JSONPlaceholder  \n**Endpoints testados:**\n\n- `GET /users/9999` — busca de usuário inexistente.\n    \n- `GET /users/abc` — busca utilizando um ID inválido.\n    \n\n**Validações implementadas:**\n\n- Status HTTP esperado.\n    \n- Estrutura do corpo da resposta.\n    \n- Formato JSON da resposta.\n    \n- Tempo de resposta inferior a 2 segundos.\n    \n\n**Objetivo:** demonstrar conhecimentos básicos de testes de API, validação de respostas HTTP e criação de asserções automatizadas com JavaScript no Postman.\n\nEndFragment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58901494",
+    "_collection_link": "https://go.postman.co/collection/58901494-8318a3f0-047b-4878-86c7-43b49552f08e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET - Buscar usuário com ID inválido",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "\r",
+              "pm.test(\"Deve retornar 404 para ID inválido\", function () {\r",
+              "    pm.response.to.have.status(404);\r",
+              "});\r",
+              "\r",
+              "\r",
+              "pm.test(\"A resposta deve retornar objeto vazio\", function () {\r",
+              "    pm.response.to.have.jsonBody({});\r",
+              "});\r",
+              "\r",
+              "\r",
+              "pm.test(\"A resposta deve ser JSON\", function () {\r",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))\r",
+              "        .to.include(\"application/json\");\r",
+              "});\r",
+              "\r",
+              "\r",
+              "\r",
+              "pm.test(\"A resposta deve levar menos de 2 segundos\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users/abc",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users",
+            "abc"
+          ]
+        },
+        "description": "sadasdasfasd"
+      },
+      "response": []
+    }
+  ]
+}
